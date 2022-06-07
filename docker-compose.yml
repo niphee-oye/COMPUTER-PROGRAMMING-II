@@ -1,0 +1,11 @@
+version: '3'
+services:
+  database:
+    container_name: postgres-New_Programming
+    image: postgres:latest
+    ports:
+      - "5400:5420"
+    volumes:
+      - C:\Users\user\Desktop\NEW-PROGRAMMING:/data/postgres
+    env_file: 
+      - csc2020.env
