@@ -7,6 +7,7 @@ export class Person{
     birthday: Date;
     isAlive: string;
 
+    
     constructor(firstName: string, lastName: string, gender: string, height: number, hobbies: string[], birthday:  Date, isAlive: string){ 
     this.firstName = firstName; 
     this.lastName = lastName; 
