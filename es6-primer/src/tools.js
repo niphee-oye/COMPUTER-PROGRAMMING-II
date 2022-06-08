@@ -1,10 +1,9 @@
-var logger = function(output){
+var logger = output => {
     console.log(output)
     }
     
 export var appName = "ES6 Review";
-export var dummyFunction = function(){ 
+export var dummyFunction = () => { 
     return "I am a dummy function"; 
 }
-
 export default logger;
